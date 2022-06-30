@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "0.1.0",
+	"FriendlyName": "PureWeb Platform Plugin",
+	"Description": "PureWeb Platform Plugin for Unreal",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "https://www.pureweb.com",
+	"DocsURL": "https://developer.pureweb.io",
+	"MarketplaceURL": "",
+	"SupportURL": "https://developer.pureweb.io",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AgentPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MappingPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "LifecyclePlugin",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PixelStreaming",
+			"Enabled": true
+		}
+	]
+}
