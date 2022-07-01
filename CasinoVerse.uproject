@@ -18,6 +18,20 @@
 		{
 			"Name": "PureWeb",
 			"Enabled": true
+		},
+		{
+			"Name": "PhotonCloudAPI",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/76bee07c672c4dbba14df190d82f7f33"
+		},
+		{
+			"Name": "glTFRuntime",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d2ed3709933d4608a3a8dd746cbc045d"
+		},
+		{
+			"Name": "ReadyPlayerMe",
+			"Enabled": false
 		}
 	]
 }
